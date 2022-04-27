@@ -5,7 +5,6 @@ import { Container } from "react-bootstrap";
 import Home from "./pages/Home";
 import Detalhes from "./pages/Detalhes";
 
-
 function App() {
   return (
     <div>

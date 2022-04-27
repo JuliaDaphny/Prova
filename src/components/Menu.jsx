@@ -11,12 +11,11 @@ const Menu = () => {
 
           <Nav className="me-auto">
             <Link className="nav-link" to="/home">Home</Link>
-
+            
             <NavDropdown title="Galeria de arte" id="nav-dropdown">
-              <NavDropdown.Item href="/pages/filmes/FilmesPopulares">{}</NavDropdown.Item>
+              <NavDropdown.Item href="/">{}</NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
-
           </Nav>
         </Container>
       </Navbar>
